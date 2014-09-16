@@ -1,4 +1,5 @@
-=================== PROGRAM ==========================
+PROGRAM
+==============
 
 In the morning, BaseX team adresses a special issue that we can directly apply to our own project or through a general 
 exercise.
