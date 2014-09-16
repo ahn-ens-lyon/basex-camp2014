@@ -50,7 +50,7 @@ Compte-tenu de l'intérêt de SynopsX pour d'autres membres du consortium, l'éq
 - Formation : 5500€
 - Transports : environ 1615€
 - Hébergement : environ 1700€ (en réservant très rapidement, sinon environ 2000€)
-- Indemnités repas : eviron 620€ (sur la base d'1 repas/jour/personne selon le barème CNRS : 17,5% de l'indemnité journalière Allemagne : 118€)
+- Indemnités repas : environ 620€ (sur la base d'1 repas/jour/personne selon le barème CNRS : 17,5% de l'indemnité journalière Allemagne : 118€)
 - TOTAL : 9435€
 
 #### Recettes
