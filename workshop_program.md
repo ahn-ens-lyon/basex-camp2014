@@ -68,8 +68,9 @@ Day 4 : Thursday - Donnerstag
 Day 5 : Friday - Freitag
 -----------------------------
 
-## Morning : 
-- Discuss with the Konstanz University DBIS group : http://dbis.uni-konstanz.de/) about possible common research 
-programs and their fundings
+## Morning : Splitting into 2 groups
+- one representing the collaboration interests (LabeX, COST, ENS international cooperations), discuss with the Konstanz University DBIS group : http://dbis.uni-konstanz.de/) about possible common research 
+programs and their fundings 
+- another finalizing some features in the general webapp or his own project
 
-## Afternoon : Departure !!!!!
+## Afternoon : Departure around 13h or 14h !!!!
