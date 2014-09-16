@@ -57,7 +57,7 @@ Compte-tenu de l'intérêt de SynopsX pour d'autres membres du consortium, l'éq
 - AHN (ARC5) : 4100€
 - ENS de Lyon (affaires internationales) : 3500€
 - LABEX Passés : 500€
-- Centre Koïré : 500€
+- Centre Koyré : 500€
 - TOTAL : 8600€
 
 #### Recherché
