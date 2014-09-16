@@ -1,6 +1,10 @@
 =============
 Co-working final goals
 
+Consolidating, restructuring, modularizing the code of SynopsX web application according to the architecture best practices of BaseX.
+Foster cooperation between different partners involved in the developpement.
+Prepare a read-to-use application for new users
+
 - refondre la webapp synopsx et réorganiser le code selon les bonnes pratiques, trouver l'architecture 
  favorisant la coopération des différents développeurs autour du logiciel (modularisation ...)
 - Faciliter le déploiement, la prise en main, la facilité d'utilisation de Synopsx pour les utilisateurs 
