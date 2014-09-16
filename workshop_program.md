@@ -1,9 +1,10 @@
 =============
-Co-working final goals
+Co-working main goals
+=============
 
 Consolidating, restructuring, modularizing the code of SynopsX web application according to the architecture best practices of BaseX.
 Foster cooperation between different partners involved in the developpement.
-Prepare a read-to-use application for new users
+Prepare a ready-to-use application for new users
 
 - refondre la webapp synopsx et réorganiser le code selon les bonnes pratiques, trouver l'architecture 
  favorisant la coopération des différents développeurs autour du logiciel (modularisation ...)
@@ -24,12 +25,12 @@ In the afternoon, we work individually or by group around a common theme (not ne
 Day 1 : Monday - Montag
 -----------------------------
 
-## Morning : by the baseX Team
+# Morning : by the baseX Team
 - Overview of the file organisation in baseX (system and data files)
 - Best practices of the webapp code organisation (xq, xqm, modules, libraries, static files ...)
 - Best practices for user management (http://docs.basex.org/wiki/User_Management)
 
-## Afternoon : on our own + adressed questions to BTeam
+# Afternoon : on our own + adressed questions to BTeam
 - Applying these best practices in the Synopsx webapp
 - Reorganisation of each project (github, synopsx) 
 - Various questions : for example, connection to relational databases or to triple stores, versioning xqm files 
