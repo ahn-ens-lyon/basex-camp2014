@@ -40,21 +40,21 @@ and xml data
 ## Day 2 : Tuesday - Dienstag
 
 
-### Morning : 
+### Morning
 - Advanced restxq requests usage (HTTP, redirect, content negociation) : http://docs.basex.org/wiki/RESTXQ#Requests
 - Session module (adding a "basket" feature to a webapp, connecting with an openid, LDAP, creating a webapp backoffice ...) : http://docs.basex.org/wiki/Session_Module
 
-### Afternoon :
+### Afternoon
 - Applying to our own project
 
 
 ## Day 3 : Wednesday - Mittwoch
 
 
-### Morning :
+### Morning
 - Best practices in templating and webapp organisation (for example : splitting queries/serialization ...)
 
-### Afternoon :
+### Afternoon
 - Applying to our own project
 
 
@@ -62,11 +62,11 @@ and xml data
 ## Day 4 : Thursday - Donnerstag
 
 
-### Morning : 
+### Morning
 - Indexes, optimization of Xquery requests : http://docs.basex.org/wiki/Indexes
 - Connection with external lexical tools (tokenizer, lemmatizer)
 
-### Afternoon :
+### Afternoon
 - Applying to our own project
 
 
@@ -76,6 +76,6 @@ and xml data
 ### Morning : Splitting into 2 groups
 - one representing the collaboration interests (LabeX, COST, ENS international cooperations), discuss with the Konstanz University DBIS group : http://dbis.uni-konstanz.de/) about possible common research 
 programs and their fundings 
-- another finalizing some features in the general webapp or his own project
+- another finalizing some features in the general webapp or their own project
 
 ### Afternoon : Departure around 13h or 14h !!!!
