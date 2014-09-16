@@ -36,9 +36,9 @@ In the afternoon, we work individually or by group around a common theme (not ne
 - Various questions : for example, connection to relational databases or to triple stores, versioning xqm files 
 and xml data 
 
------------------------------
-Day 2 : Tuesday - Dienstag
------------------------------
+
+## Day 2 : Tuesday - Dienstag
+
 
 ### Morning : 
 - Advanced restxq requests usage (HTTP, redirect, content negociation) : http://docs.basex.org/wiki/RESTXQ#Requests
@@ -47,9 +47,9 @@ Day 2 : Tuesday - Dienstag
 ### Afternoon :
 - Applying to our own project
 
------------------------------
-Day 3 : Wednesday - Mittwoch
------------------------------
+
+## Day 3 : Wednesday - Mittwoch
+
 
 ### Morning :
 - Best practices in templating and webapp organisation (for example : splitting queries/serialization ...)
@@ -58,9 +58,9 @@ Day 3 : Wednesday - Mittwoch
 - Applying to our own project
 
 
------------------------------
-Day 4 : Thursday - Donnerstag
------------------------------
+
+## Day 4 : Thursday - Donnerstag
+
 
 ### Morning : 
 - Indexes, optimization of Xquery requests : http://docs.basex.org/wiki/Indexes
@@ -69,9 +69,9 @@ Day 4 : Thursday - Donnerstag
 ### Afternoon :
 - Applying to our own project
 
------------------------------
-Day 5 : Friday - Freitag
------------------------------
+
+## Day 5 : Friday - Freitag
+
 
 ### Morning : Splitting into 2 groups
 - one representing the collaboration interests (LabeX, COST, ENS international cooperations), discuss with the Konstanz University DBIS group : http://dbis.uni-konstanz.de/) about possible common research 
