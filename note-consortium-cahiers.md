@@ -47,19 +47,21 @@ Compte-tenu de l'intérêt de SynopsX pour d'autres membres du consortium, l'éq
 ### Demande chiffrée
 
 #### Dépenses
-Formation : 5500€
-Transports : environ 1615€
-Hébergement : environ 1700€ (en réservant très rapidement, sinon environ 2000€)
-Indemnités repas : eviron 620€ (sur la base d'1 repas/jour/personne selon le barème CNRS : 17,5% de l'indemnité journalière Allemagne : 118€)
-TOTAL : 9435€
+- Formation : 5500€
+- Transports : environ 1615€
+- Hébergement : environ 1700€ (en réservant très rapidement, sinon environ 2000€)
+- Indemnités repas : eviron 620€ (sur la base d'1 repas/jour/personne selon le barème CNRS : 17,5% de l'indemnité journalière Allemagne : 118€)
+- TOTAL : 9435€
 
 #### Recettes
-AHN (ARC5) : 4100€
-ENS de Lyon (affaires internationales) : 3500€
-LABEX Passés : 500€
-Centre Koyré : 500€
-TOTAL : 8600€
-Recherché : environ 835€
+- AHN (ARC5) : 4100€
+- ENS de Lyon (affaires internationales) : 3500€
+- LABEX Passés : 500€
+- Centre Koyré : 500€
+- TOTAL : 8600€
+
+#### Recherché
+- Environ 835€
 
 
 
