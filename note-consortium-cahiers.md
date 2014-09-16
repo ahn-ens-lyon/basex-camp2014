@@ -40,7 +40,27 @@ Objet de la demande au Consortium cahier
 
 L'équipe qui travaille sur le développement de SynopsX organise une semaine de co-Working à Konstanz avec les développeurs de BaseX en novembre 2014. Plutôt qu'une stricte formation avancée, cette semaine de co-working sera l'occasion de travailler en commun sur les développements de SynopsX afin d'améliorer l'organisation du code et l'architecture générale du projet. Plusieurs développements seront réalisés à cette occasion pour faciliter la prise en main du logiciel pour la création de nouveaux projets de publication XML-TEI.
 
-L'organisation de cette semaine de co-working implique le financement des formateurs et la prise en charge des frais de transports et de résidence à l'université de Konstanz. On sollicite le consortium Cahier pour une participation aux frais de transports et d'hébergement des membres du consortium pour cette formation. Compte-tenu de l'intérêt de SynopsX pour d'autres membres du consortium, l'équipe de développement de SynopsX se propose d'organiser une formation à destination des ses membres.
+L'organisation de cette semaine de co-working implique le financement des formateurs et la prise en charge des frais de transports et de résidence à l'université de Konstanz. On sollicite le consortium Cahier pour une participation aux frais de transports et d'hébergement des membres du consortium pour cette formation.
+
+Compte-tenu de l'intérêt de SynopsX pour d'autres membres du consortium, l'équipe de développement de SynopsX peut s'engager à organiser une formation à destination de ses membres au retour pour répercuter les apprentissages de cette formation.
+
+### Demande chiffrée
+
+#### Dépenses
+Formation : 5500€
+Transports : environ 1615€
+Hébergement : environ 1700€ (en réservant très rapidement, sinon environ 2000€)
+Indemnités repas : eviron 620€ (sur la base d'1 repas/jour/personne selon le barème CNRS : 17,5% de l'indemnité journalière Allemagne : 118€)
+TOTAL : 9435€
+
+#### Recettes
+AHN (ARC5) : 4100€
+ENS de Lyon (affaires internationales) : 3500€
+LABEX Passés : 500€
+Centre Koyré : 500€
+TOTAL : 8600€
+Recherché : environ 835€
+
 
 
 BaseX et les bases de données XML natives
