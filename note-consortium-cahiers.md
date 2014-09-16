@@ -44,6 +44,9 @@ L'organisation de cette semaine de co-working implique le financement des format
 
 Compte-tenu de l'intérêt de SynopsX pour d'autres membres du consortium, l'équipe de développement de SynopsX peut s'engager à organiser une formation à destination de ses membres au retour pour répercuter les apprentissages de cette formation.
 
+### Projets membres de CAHIER participant à ce coworking :
+Desanti, Guides de Paris, Montesquieu, ...
+
 ### Demande chiffrée
 
 #### Dépenses
