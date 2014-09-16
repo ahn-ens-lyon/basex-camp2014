@@ -46,19 +46,20 @@ Day 2 : Tuesday - Dienstag
 Day 3 : Wednesday - Mittwoch
 -----------------------------
 
-## Morning : 
-- Indexes, optimization of Xquery requests : http://docs.basex.org/wiki/Indexes
-- Connection with external lexical tools (tokenizer, lemmatizer)
+## Morning :
+- Best practices in templating and webapp organisation (for example : splitting queries/serialization ...)
 
 ## Afternoon :
 - Applying to our own project
+
 
 -----------------------------
 Day 4 : Thursday - Donnerstag
 -----------------------------
 
-## Morning :
-- Best practices in templating and webapp organisation (for example : splitting queries/serialization ...)
+## Morning : 
+- Indexes, optimization of Xquery requests : http://docs.basex.org/wiki/Indexes
+- Connection with external lexical tools (tokenizer, lemmatizer)
 
 ## Afternoon :
 - Applying to our own project
