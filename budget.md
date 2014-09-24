@@ -6,17 +6,17 @@ Budget
 DEPENSES
 -------------
 
-TOTAL : 6 personnes (E. Chateau, M. Ingarao, S. Boschetto, JP Magué, 
+TOTAL : 3400 euros pour 6 personnes (E. Chateau, M. Ingarao, S. Boschetto, S. Gedzelman, P-Y Jallud, P. Pons) 
 
-- 550 euros : Formation BaseX pour 6 personnes
-- 125 euros : Frais de bouche
+- 550 euros : Formation BaseX 
+- 750 euros : Frais de bouche
+- 2100 euros : Hébergement 
 
-PAR PERSONNE :
-- 300 euros (290 euros) de Transport (Lyon-Konstanz-Lyon en train en passant par Zurich : aller dimanche aprem et retour vendredi aprem) 
+PAR PERSONNE : 825 euros dont 300 euros de transport à faire financer par l'entité responsable financière de notre ressource (labo, anr, labex)
 - 300 euros (269 euros) d'Hébergement (Konstanz Ibis hotel, 5 nuits : dimanche soir au vendredi matin)
-- 100 euros (500 euros)
+- 100 euros (500 euros) de Formation
 - 125 euros de Frais de bouche (à raison de 5 jours x 25 euros), voir grille tarifaire par jour CNRS
-
+- 300 euros (290 euros) de Transport (Lyon-Konstanz-Lyon en train en passant par Zurich : aller dimanche aprem et retour vendredi aprem) 
 
 -------------
 CREDITS 
@@ -25,11 +25,11 @@ CREDITS
 - Affaires International de l'ENS
 - AHN
 - CAHIER
-- autres par les laboratoires
+- autres par les laboratoires, labex, anr respectifs
 
--------------
-A PROPOS 
--------------
+-----------------------------------------
+A PROPOS des frais de déplacement (CNRS)
+-----------------------------------------
 
 Sur le site du CNRS (http://www.dgdr.cnrs.fr/dsfim/Reg_fin/Faq/page-01_2.htm)
 L'indemnisation des repas est calculée sur la base du nombre de repas payant déclaré par le missionnaire. 
