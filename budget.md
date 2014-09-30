@@ -6,9 +6,9 @@ Budget
 DEPENSES
 -------------
 
-TOTAL : 3400 euros pour 6 personnes (E. Chateau, M. Ingarao, S. Boschetto, S. Gedzelman, P-Y Jallud, P. Pons) 
+TOTAL : 8350 euros pour 6 personnes (E. Chateau, M. Ingarao, S. Boschetto, S. Gedzelman, P-Y Jallud, P. Pons) 
 
-- 550 euros : Formation BaseX 
+- 5500 euros : Formation BaseX 
 - 750 euros : Frais de bouche
 - 2100 euros : Hébergement 
 
