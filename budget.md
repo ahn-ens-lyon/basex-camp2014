@@ -6,17 +6,18 @@ Budget
 DEPENSES
 -------------
 
-TOTAL : 8350 euros pour 6 personnes (E. Chateau, M. Ingarao, S. Boschetto, S. Gedzelman, P-Y Jallud, P. Pons) 
+TOTAL : 12220 euros pour 6 personnes (E. Chateau, M. Ingarao, S. Boschetto, S. Gedzelman, P-Y Jallud, P. Pons) 
 
 - 5500 euros : Formation BaseX 
-- 750 euros : Frais de bouche
-- 2100 euros : Hébergement 
+- 1722 euros : Frais de bouche
+- 3198 euros : Hébergement 
+- 1800 euros : Transport
 
-PAR PERSONNE : 1692 euros dont 300 euros de transport à faire financer par l'entité responsable financière de notre ressource (labo, anr, labex)
-- 350 euros  d'Hébergement (Konstanz Ibis hotel, 5 nuits : dimanche soir au vendredi matin)
-- 917 euros de Formation
-- 125 euros de Frais de bouche (à raison de 5 jours x 25 euros), voir grille tarifaire par jour CNRS
-- 300 euros (290 euros) de Transport (Lyon-Konstanz-Lyon en train en passant par Zurich : aller dimanche aprem et retour vendredi aprem) 
+PAR PERSONNE : 2037 euros dont 300 euros de transport à faire financer par l'entité responsable financière de notre ressource (labo, anr, labex)
+- Hébergement : 106.6 euros par jour, 533 euros pour 5 nuits, dimanche soir au vendredi matin, (65% de 164 euros, l'indemnité journalière pour l'allemagne (voir ci dessous et voir http://www.legifrance.gouv.fr/affichTexte.do;jsessionid=78CD6CA02D06171941F1353D5B6AB46E.tpdjo06v_2?cidTexte=JORFTEXT000000242360&dateTexte=20080923)
+- Formation 917 euros
+- Repas : 57.4 euros par jour, 287 pour 5 jours (35% de 164 euros, l'indemnité journalière pour l'allemagne (voir ci dessous et voir http://www.legifrance.gouv.fr/affichTexte.do;jsessionid=78CD6CA02D06171941F1353D5B6AB46E.tpdjo06v_2?cidTexte=JORFTEXT000000242360&dateTexte=20080923)
+- Transport : 300 euros (290 euros) de Transport (Lyon-Konstanz-Lyon en train en passant par Zurich : aller dimanche aprem et retour vendredi aprem) 
 
 -------------
 CREDITS 
