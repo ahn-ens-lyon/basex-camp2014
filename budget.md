@@ -12,7 +12,7 @@ TOTAL : 8350 euros pour 6 personnes (E. Chateau, M. Ingarao, S. Boschetto, S. Ge
 - 750 euros : Frais de bouche
 - 2100 euros : Hébergement 
 
-PAR PERSONNE : 1675 euros dont 300 euros de transport à faire financer par l'entité responsable financière de notre ressource (labo, anr, labex)
+PAR PERSONNE : 1692 euros dont 300 euros de transport à faire financer par l'entité responsable financière de notre ressource (labo, anr, labex)
 - 350 euros  d'Hébergement (Konstanz Ibis hotel, 5 nuits : dimanche soir au vendredi matin)
 - 917 euros de Formation
 - 125 euros de Frais de bouche (à raison de 5 jours x 25 euros), voir grille tarifaire par jour CNRS
