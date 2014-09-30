@@ -24,7 +24,7 @@ CREDITS
 
 - Affaires International de l'ENS : 3500 euros
 - AHN
-- CAHIER
+- CAHIER : 1200 demandés
 - autres par les laboratoires, labex, anr respectifs
   - Huma-Num : mission de Pierre-Yves (transport, hébergement, nourriture)
   - missions payées également pour Emmanuel et Philippe (transport, hébergement, nourriture)
