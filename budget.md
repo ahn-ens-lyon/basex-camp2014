@@ -26,7 +26,8 @@ CREDITS
 - AHN
 - CAHIER
 - autres par les laboratoires, labex, anr respectifs
-  - Huma-Num : mission de Pierre-Yves
+  - Huma-Num : mission de Pierre-Yves (transport, hébergement, nourriture)
+  - missions payées également pour Emmanuel et Philippe (transport, hébergement, nourriture)
 
 -----------------------------------------
 A PROPOS des frais de déplacement (CNRS)
