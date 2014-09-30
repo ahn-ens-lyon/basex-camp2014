@@ -22,10 +22,11 @@ PAR PERSONNE : 825 euros dont 300 euros de transport à faire financer par l'ent
 CREDITS 
 -------------
 
-- Affaires International de l'ENS
+- Affaires International de l'ENS : 3500 euros
 - AHN
 - CAHIER
 - autres par les laboratoires, labex, anr respectifs
+  - Huma-Num : mission de Pierre-Yves
 
 -----------------------------------------
 A PROPOS des frais de déplacement (CNRS)
