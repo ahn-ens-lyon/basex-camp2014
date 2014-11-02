@@ -7,17 +7,17 @@ Budget révisé (2 novembre 2014)
 
 |               | crédit        | débit         |               |
 | ------------- | ------------- | ------------- | ------------- |
-| Formateurs    | | 6 545,00 €	| (714 Labex+714 ANR Ampère+5117 AHN) |
-| hébergement, 6 nuités/6 pers. | | 2 652,00 € | 442/6j. |
-| Transports    | | 1 950,00 € |	c.300 euros/pers. |
-| Perdiem       |	| 743,40 € | Un repas par jour par personne (sur la base de 17,5% de l'indemnité journalière CNRS Allemagne : 118 €) |
-| ENS affaires internationales | 3 500,00 € | | 29,43% |
-| AHN           | 5 117,00 € | | 43,03% |
-| TGIR Humanum  | 714,00 €  | | 6,00% |
-| Consortium Cahier	|	1 132,00 € | | 9,52% |
-| ANR Ampère	  |	714,00 € | | 6,00% |
-| Labex Passés dans le Présent | 714,00 € | | 6,00% |
-| **Totaux**    | **11 891,00 €** |	**11 890,40 €** |	**100,00%** |
+| Formateurs    | | 6 545,00 €	| (714 Labex+714 ANR Ampère+5117 AHN) |
+| hébergement, 6 nuités/6 pers. | | 2 652,00 € | 442/6j. |
+| Transports    | | 1 950,00 € |	c.300 euros/pers. |
+| Perdiem       |	| 743,40 € | Un repas par jour par personne (sur la base de 17,5% de l'indemnité journalière CNRS Allemagne : 118 €) |
+| ENS affaires internationales | 3 500,00 € | | 29,43% |
+| AHN           | 5 117,00 € | | 43,03% |
+| TGIR Humanum  | 714,00 €  | | 6,00% |
+| Consortium Cahier	|	1 132,00 € | | 9,52% |
+| ANR Ampère	  |	714,00 € | | 6,00% |
+| Labex Passés dans le Présent | 714,00 € | | 6,00% |
+| **Totaux**    | **11 891,00 €** |	**11 890,40 €** |	**100,00%** |
 
 
 
