@@ -1,0 +1,176 @@
+# cr Coworking 03 novembre 2014
+
+## Introduction sur la compagnie
+
+Christian rappelle qu'il a débuté il y a neuf ans à produit à l'université avec les étudiants des classes java, utilisation xquery. Plus en plus de demande et de service commerciale, raison pour laquelle mis sur pied une entreprise. Michael, Lucas, Luke, projet mis en œuvre il y a deux ou trois ans.  3 personnes plein temps, 3 personnes temps partiel. La pluspart ayant réalisés des travaux universiataires sur le projet BaseX.
+
+Ils ont d'abord pu profiter d'un dispositif permettant de constituer une université à partir d'un projet universitaire. Bien fonctionné la première année, ensuite constitué une société. Premier client grand éditeur. Construction d'applications web personnelles ou entreprises dans le domaine de l'édition.  Nombreux clients en Allemagne, mais rapidement aussi en Australie. Airbus, puis Canada, EU. Pas forcément un grand marché pour les bases de données, XML est beaucoup utilisé mais les gens ne connaissent pas toujours les langages ou les outils. Cependant très surpris du niveau de connaissance de XML dans le domaine de l'édition allemande.
+
+Un gros projet où utilisent JSON et AngularJS, avec XML en arrière. Utilise des conversions. Mais aussi une couche supplémentaire pour valider les données. Pas de mapping standardisé avec JSON, un format fixe.
+
+Pas de connaissance de JSON-LD http://json-ld.org
+
+
+## Organisation des projets
+
+Pas de structure stable, varie en fonction des projets. Soit XForms, soit AngularJS
+De plus en plus AngularJS car si XForms attrayant, certaines choses élémentaires plus simples à faire avec AngularJS (comme messages de formulaire).  On confère habituellement la présentation au client. Côté serveur, traite plutôt les services REST.
+
+Xforms used to prepare Html forms to the server
+
+New logic =>
+* Server side mostly for REST, data is prepared
+* Client is for presentation with javascript
+
+Application Klett-rt
+Éditeurs qui doivent gérer une base iconographique avec les crédits et informations de copyrights. Des millions d'entrées à administrer.
+Affichage d'une notice d'image, avec formulaire, tout est réalisé en AngularJS avec Bootstrap pour le design.
+
+L'application permet de sélectionner une image pour un livre donnée. Information sur l'usage de l'image, crédits, etc. Chaque référence peut contenir des crédits à plusieurs société d'auteurs différentes, il peut y avoir plusieurs bénéficiaires pour une image.
+
+Différentes vues d'index (créditeurs, images)
+Les données sont affichées en JSON
+meta, data
+
+Changing data model is possible with AngularJS
+
+restxq
+Quelque chose comme un point d'entrée pour les requêtes HTTP du serveur. Cela permet d'associer des fonctions ressources à des URI.
+
+un `fichier.xqm` qui traite le restxq basique
+L'ensemble du code des fonctions appellées dans RESTXQ est stocké dans `repo`
+
+Les données sont stockées en XML, chaque entrée dispose d'un élément meta avec un identifiant.
+
+
+Deux bases :
+    - une pour l'interrogation (avec tous les index, permette la recherche full-text)
+    - une pour les nouvelles entrées
+
+Une approche incrémentielle, deux bases de données. Une avec les bases de données de stock, et l'autre avec les données de travail (nécessaires car des millions de données, sur lesquelles devait faire des recherche plein texte, etc. probablement 30 utilisateurs). Chaque soir, les bases sont mergées.
+
+fonction data:get
+
+Une fonction recherche
+search:search, utilisation de map pour exact, fulltext, filter
+Higher order function
+
+Fonction search:match
+Utilisation de la notation JSON `\.`
+
+`if ($q-id) then map {`...
+ équivaent $q-id[.] ! map {...
+si une chaîne non vide retourne true, si pas d'id une séquence vide
+
+ft:tokenize()
+normalisation des diacritiques et de la casse
+Si une ou plusieurs entrées, alors rapporte un token pour chaque partie séparée par des espaces.
+peut les compter avec count()
+`count(ft:tokenize("test de tokenisation"))`
+
+Réunion dans une même fonction complexe de plusieurs traitements pour simplifier les modifications.
+Possibilités de produire des fonctions complexes de cette sorte qui explique probablement.
+
+
+Si écrit des scripts simples, peut les nommer .xq
+Tout est module, des modules de bibliothèques et des modules.
+Des modules de bib ne peuvent pas être exécutés.
+
+Chaque processeur utilise sa propre terminologie. Cf. livre eXist O'Reilly Adam Retter, décidé d'utiliser la même terminologie.
+
+xqm pour les modules qui font appellent à l'autres.
+xq pour les points d'entrées.
+
+xqm seront généralement destinés à contenir des fonctions, les scripts porteront habituellement l'extension xq.
+
+Le code de l'application est déployé avec maaven. Ici les différents répertoires sont compris dans un répertoire global pour l'application qui contient `public`, `repo`, `webapp` puis déclarés dans ".basex".
+Les données sont stockées séparéemment des données web.
+
+application
+-- data/
+-- media/
+-- model/
+-- public/
+-- -- scripts/
+-- -- -- controlers
+-- -- -- filters
+-- -- -- services
+-- -- static/
+-- -- target/
+-- -- views/
+-- -- WEB-INF/
+-- -- index
+-- repo/
+-- webapp/
+
+Structure probablement lié à AngularJS dans public/script
+Correspond aux bonnes pratiques du processeur JS. Conceptuellement proche de XForms. Côté client un modèle de donné conforme à celui de XForms et lié à celui contenu dans la webapp. En changeant le modèle de données, modifie l'apparence du frontend comme avec XForms. Ici JavaScript avec les avantages de JS, sa large communauté, et ses fonctionnalités.
+
+Cependant si doit éditer du contenu mixte avec contrôle complet, peut-etre intérêt à avoir TEI.
+Pas les mêmes utilisations JS plus adapté pour le frontend et l'interactivité car mieux pris en charge par les navigateurs. En revanche, XForms bien adapté pour les interactions directes avec la base de données (plus proche des données).
+
+
+
+Module Client http://docs.basex.org/wiki/Client_Module est un module qui sert à connecter une autre base de données depuis une un module.
+
+Pour le moment, pas possible d'administrer une base distante par l'intermédiaire du client. Un client web est en cours de développement pour l'administration de la base de données.
+
+Module xquery
+Qui permet aussi de créer des requêtes XQuery sur la base depuis un module. Souvent très utile pour RESTXQ. De même, lorsque les problèmes de sécurité seront résolus, dans la version 8 il devrait être possible d'interrompre des requêtes en exécution côté serveur pour qu'ellles ne continuent pas à s'exécuter en arrière plan.
+
+
+Inline function
+optimisation
+
+```xquery
+declare function local:x() {
+  123
+};
+for $i in 1 to 10000
+return 123
+```
+
+Champs du formulaires attachés dynamiquement aux fichiers XML
+Utilisation d'un fichier de schema.
+Définissent dans ce fichier plusieurs contraintes par l'intermédiaire d'attributs.
+
+Déjà un module de validation. http://docs.basex.org/wiki/Validation_Module
+
+Un Xquery qui boucle sur les entrées du schema et vérifie les contraintes.
+Vont essayer d'étendre ce système avec RelaxNG.
+
+nouvelles fonctions JSON
+fn:parse-json('["A"]')
+cf. http://docs.basex.org/wiki/XQuery_3.1
+
+
+Pour le moment utilisateurs de la base de données, et utilisateurs implémentés en XQuery.
+Une classe user: user:login, user:logout, etc.
+utilisation hash et salt pour l'identification
+
+Les utilisateurs enregistrés dans la base de données.
+Séparation entre admin et utilisateurs de la base de données, mais envisagent d'unifier le système à l'avenir dans l'administration de la base de données.
+
+La base des utilisateurs peut être mélangée avec les données ou bien dans une base de données dédiée.
+Possibilité de branché une couche persistante pour mapper, etc. Toujours possible d'avoir dans une application des utilisateurs gérés dans un autre système (couchdb, mysql etc.).
+
+id, name, log, salt
+
+OpenAuth code écrit pour facebook, et google. Dès qu'auront des cas d'usage vont les implémenter, de même toujours possible d'implémenter Ldap.
+
+https://github.com/apb2006/XQuery-OAuth (en partie MarkLogic)
+
+Le fait de travailler avec des données XML peut présenter l'inconvénient de ne pas pouvoir disposer d'implémentation standardisées par exemple pour gérer les utilisateurs. Dans certains cas, des approches mixtes sont plus appropriées.
+
+Pourraient être intéressés dans une généralisation de ces systèmes. Un des buts génériques de disposer d'un CMS pour XML. Une des difficultés actuellement consiste à puiser dans différents projets réalisés et généraliser les solutions. Depuis trois mois, pensent à la manière dont pourraient gérer sur l'ensemble des projets ces composants en généricisant.
+
+Un système de gestion entièrement basé sur XForm, possible, l'avons traité avec succès avec ces technologies. Dans le second projet que nous venons de présenter, utilisation de AngularJS qui a permis de traiter nombreuses choses pas disponibles avec XForms ou seulement conceptuellement (upload de fichiers, etc. qui s'ils sont spécifiés ne sont pas réellement implémentés). Même si cela est une bonne chose conceptuellement, les fabriquants des principaux navigateurs se désengagent des technologies XML, on doit donc l'anticiper.
+
+En réalité la véritable communauté de BaseX n'existe pas réellement au sens où pour le moment seulement des utilisateurs et des développeurs. Il y a des échanges mais plutôt entre développeurs de BaseX et eXist. Par exemple, comme le travail réalisé pour le module de fichiers.
+
+Pour partage d'exemples
+https://github.com/BaseXdb/basex-contrib
+
+Une bonne manière de faire, à plus niveau par exemple
+http://expath.org
+Conceptuellement intéressant mais pour le moment trop centré sur une personne et n'a pas pris. Pas vraiment une grande communauté d'utilisateurs, donc important de bien réfléchir.
