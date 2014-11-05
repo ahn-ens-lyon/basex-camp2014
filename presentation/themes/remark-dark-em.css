@@ -116,3 +116,7 @@ font-size: 1em}
   float: right;
   padding-top: 1em;
 }
+
+.remark-slideshow {
+  background-color: red;
+}
