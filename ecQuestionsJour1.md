@@ -23,3 +23,11 @@ ecQuestions.md
 - Are some XSLT and static files could be given in repo ?
 
 - It appears that symlinks are not resolved inside webapp. Is it a bug ?
+
+
+## Q{default-ns}
+Comment sérialiser avec Qname
+
+Faire des redirect pour dire quand le header, fait cela, etc.
+
+## 

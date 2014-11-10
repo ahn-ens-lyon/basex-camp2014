@@ -22,7 +22,7 @@ class: center middle
 ### .red[1.] expose / publish
 
 ### .red[2.] explore / visualize
-
+<!--  -->
 ### .red[3.] enrich / link
 
 ???
@@ -45,10 +45,38 @@ class: center middle
 # .red[1.] expose/publish
 
 ---
-
+background-image: url(backgroundPastilles.gif)
 layout: false
 
 # TEI as a common model
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<body xmlns="http://www.tei-c.org/ns/1.0" n="spleenEtIdeal">
+    <div type="longPoem">
+        <head>Les Phares</head>
+        <lg type="stanza">
+            <l n="1">Rubens, fleuve d'oubli, jardin de la paresse,</l>
+            <l n="2">Oreiller de chair fraîche où l'on ne peut aimer,</l>
+            <l n="3">Mais où la vie afflue et s'agite sans cesse,</l>
+            <l n="4">Comme l'air dans le ciel et la mer dans la mer ;</l>
+            <!-- nœud commentaire -->
+        </lg>
+        <lg type="stanza">
+            <l n="5">Léonard de Vinci, miroir profond et sombre,</l>
+            <l n="6">Où des anges charmants, avec un doux souris</l>
+            <l n="7">Tout chargé de mystère, apparaissent à l'ombre</l>
+            <l n="8">Des glaciers et des pins qui ferment leur pays ;</l>
+        </lg>
+        <gap reason="sampling" quantity="9" unit="stanza"/>
+    </div>
+    <div type="longPoem">
+        <head>La Muse malade</head>
+        <gap reason="sampling" quantity="4" unit="stanza"/>
+    </div>
+</body>
+
+```
 
 ???
 
@@ -58,11 +86,7 @@ TEI is a common model for all the different publication projects engaged in Syno
 
 # TEI as 3 layer cake
 
-![tei + LOD]
-
----
-
-# content negociation
+![tei3layercake](images/structureTEI.svg)
 
 ---
 
@@ -75,6 +99,18 @@ class: center middle
 
 # XQuery full-text
 
+## build a personalized engine
+
+## unique layer application
+
+## articulation with web service
+
+---
+
+# lemmatisation
+
+![dataviz](images/schiller.png)
+
 ???
 
 Some of the specific historical datas we are dealing with need specific lemmanisation.
@@ -83,11 +119,24 @@ In that use case, the XQuery Full-text standard implementation in BaseX could be
 
 ---
 
-# datavis
+# lemmatisation
 
-![datavis.png]
+![datavis](images/dta--cab.png)
+
+
+---
+
+# dataviz
+
+![datavis](images/datavis.png)
 
 ???
+
+---
+
+# dataviz
+
+![datavis](images/EquivalencesView_Ordine_level2.jpg)
 
 ---
 
@@ -100,17 +149,32 @@ class: center middle
 
 # a linked corpus
 
-![tei + LOD]
+ ![lod](images/sw-cube.png)
 
-take part of Linked Open Data
+## take part of .red[L]inked .red[O]pen .red[D]ata
 - for distribution and re-use
 - for enrichment
 
 ---
 
+# a linked corpus
+
+![livre](images/hugo.png)
+---
+
+# content negociation
+
+## HTTP header
+
+## consumes / produces
+
+## RESTXQ
+
+---
+
 # XQuery Update
 
-![Annotator]
+![Annotator](images/annotator.png)
 
 ???
 
@@ -122,12 +186,12 @@ But XQuery Update could also use to manipulate collections of texts in the data 
 
 # a candidate facility for the french research infrastructure TGIR Huma-Num
 
-L’équipement propre à la TGIR Huma-Num est composé de :
+TGIR Huma-Num's infrastructure is composed of :
 
-- 12 To de stockage réservé pour les systèmes d’information
-- 120 To de stockage sécurisé généraliste
-- 100 cœurs de calcul
-- 18 serveurs répartis de la façon suivante
+- 12 To for storage capacity for the Information Systems
+- 120 To for general secured storage
+- 100 computational cores
+- 18 servers
 
 ???
 
@@ -137,7 +201,7 @@ The scope of SynopsX is on the one hand to help a single researcher to easily pu
 
 ---
 
-# main goals
+# why SynopsX ?
 
 ## .red[collaborate]
 - research by projects
